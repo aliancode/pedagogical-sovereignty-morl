@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 EquiLearn Final — Research-grade implementation
-Author: prepared for Rebbah by ChatGPT
+
 Features:
  - Real-data ready (loads CSVs from directory)
  - DKT + EPV embeddings (trainable) + EPV integration into prediction
