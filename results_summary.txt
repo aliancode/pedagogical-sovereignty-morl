@@ -1,0 +1,47 @@
+══════════════════════════════════════════════════════════════
+  RESULTS SUMMARY — Pedagogical Sovereignty MORL
+  Synthetic simulation | No real data collected
+══════════════════════════════════════════════════════════════
+
+[1] Pareto Frontier
+  Policies trained         : 24
+  Pareto-optimal           : 2
+  Equity  range            : [0.996,0.999]
+  Mastery range            : [0.949,0.954]
+
+[2] Baseline
+  Mastery                  : 0.953
+  Equity                   : 0.981
+  Gini                     : 0.019
+    observational_learners      : 0.408
+    mainstream_learners         : 0.446
+    relational_learners         : 0.435
+
+[3] Multi-seed  (mean ± std)
+  Baseline equity          : 0.984 ± 0.012
+  MORL equity              : 0.994 ± 0.004
+  Δ equity                 : +0.010
+  Baseline mastery         : 0.938 ± 0.008
+  MORL mastery             : 0.925 ± 0.015
+  Δ mastery                : -0.013
+
+[4] Statistical tests (Wilcoxon signed-rank)
+  Equity   p-value         : 0.1250
+  Mastery  p-value         : 0.3750
+  Equity   Cohen's d       : 0.985
+  Mastery  Cohen's d       : -0.589
+
+[5] Action dictionary (Table 1) — sorted by E[mastery]
+  A0: state_rule_directly          E[m]=0.526 epv=[0.05,0.05,0.08,0.08]
+  A1: show_natural_example         E[m]=0.495 epv=[0.80,0.35,0.78,0.28]
+  A6: guided_observation           E[m]=0.475 epv=[0.52,0.38,0.85,0.62]
+  A5: show_multiple_examples       E[m]=0.472 epv=[0.42,0.22,0.92,0.32]
+  A4: offer_learner_choice         E[m]=0.414 epv=[0.32,0.28,0.22,0.92]
+  A2: connect_to_beadwork          E[m]=0.351 epv=[0.55,0.88,0.38,0.42]
+  A3: connect_to_land              E[m]=0.348 epv=[0.78,0.82,0.48,0.42]
+  A7: present_elder_story          E[m]=0.341 epv=[0.82,0.92,0.52,0.48]
+
+══════════════════════════════════════════════════════════════
+  DISCLAIMER: Synthetic simulation only.
+  No real student data. No community participation.
+══════════════════════════════════════════════════════════════
