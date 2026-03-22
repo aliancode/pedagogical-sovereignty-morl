@@ -261,9 +261,3 @@ Please do not submit pull requests that modify the core reward profiles or stude
 
 ---
 
-## Contact
-
-For questions about the simulation, open a GitHub issue.
-
-For questions about the paper's theoretical claims or the ethical framework, please refer to the companion paper.
-
